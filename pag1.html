@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pag1.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100"> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="pag1.html">La Historia de Snoopy</a>
+                    <a class="nav-link" href="pag2.html">Snoopy a través de los años</a>
+                    <a class="nav-link" href="pag3.html">El impacto de Snoopy en nuestra generación</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container d-flex flex-column justify-content-center flex-grow-1">
+        <h1 class="display-4 text-center">La Historia de Snoopy</h1>
+        <p class="lead text-center">La historia del icónico personaje.</p>
+    
+        <h1 class="display-6">El Origen de Snoopy</h1>
+        <div class="row">
+            <div class="col-8">
+                <p class="text-justify">Snoopy es, sin duda, el beagle más famoso del mundo, nacido de la imaginación del dibujante Charles M. Schulz. Hizo su debut oficial en la tira cómica Peanuts (conocida como Charlie Brown y sus amigos en español) el 4 de octubre de 1950. Curiosamente, Schulz originalmente planeó llamarlo "Sniffy", pero ese nombre ya estaba en uso en otra tira cómica, por lo que eligió "Snoopy" tras recordar que la madre de Schulz había sugerido ese nombre para un futuro perro de la familia.</p>
+                
+                <div class="container text-center">
+                    <img src="img/primeratirasnoopy.jpeg" class="img-fluid" alt="primeratira" id="primeratira">
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/creadorsnoopy.jpg" class="card-img-top" alt="creadorcharlesmshulz">
+                    <div class="card-body">
+                        <p class="card-text">Charles M.Shulz dibujando su primer Charlie Brown.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br> <br>
+        <p class="text-justify"> En sus primeros años, Snoopy era un personaje secundario que se parecía mucho más a un perro real. Caminaba en cuatro patas, no expresaba pensamientos complejos y su dueño original ni siquiera era Charlie Brown. Sin embargo, rápidamente se convirtió en el perro de Charlie, y su personalidad única comenzó a florecer. Fue en 1952 cuando sus pensamientos se mostraron por primera vez en un globo de diálogo, y en 1957 dio el paso decisivo de empezar a caminar sobre sus dos patas traseras, marcando su transformación de una mascota a un personaje central con una vida interior increíblemente rica.</p>
+
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-6">La Caseta de Snoopy</h1>
+                    <p class="text-justify">La base de su historia es la de un perro que se niega a ser "solo un perro". A través de su caseta roja, que desafía la física (es mucho más grande por dentro y sirve como avión o escenario), Snoopy vive una vida de fantasía para escapar del aburrimiento. Esta desconexión entre la realidad de los niños y el mundo épico de Snoopy (donde es un héroe de guerra, un autor famoso o un patinador olímpico) se convirtió en el corazón de su humor y su encanto duradero.</p>
+
+                    <div class="container-fluid">
+                        <button type="button" class="btn" 
+                        data-bs-container="body" 
+                        data-bs-toggle="popover" 
+                        data-bs-html="true"
+                        data-bs-placement="bottom" 
+                        data-bs-content="Snoopy fue elegido mascota oficial de la NASA.<br><br><img src='img/Snoopy NASA Mascot.jpg' class='img-fluid'>">
+                        ¿Sabías que...?</button>
+                    </div>
+                </div>
+                
+                <div class="col text-center">
+                    <img src="img/casarojasnoopy.jpg" alt="casaroja" id="casaroja">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>

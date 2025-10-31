@@ -1,0 +1,52 @@
+#carouselSnoopy {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#carouselSnoopy .carousel-item img {
+  height: 450px;      
+  object-fit: contain;  
+  width: 100%;    
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: auto; 
+}
+
+h1{
+  font-family:  Mono, monospace;
+  color: rgb(80, 112, 177);
+}
+
+p{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  text-align: justify;
+}
+
+.lead{
+  color:rgb(76, 89, 149);
+  font-style: bold;
+  text-align: center;
+}
+
+.navbar{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;;
+}
+
+#primeratira{
+  size: 50rem;
+}
+
+.btn .btn-primary{
+  color: rgb(80, 112, 177);
+}
+
+.card-title{
+  color:rgb(76, 89, 149);
+  font-family:  Mono, monospace;
+}
+
+.card-text{
+  text-align: left;
+}

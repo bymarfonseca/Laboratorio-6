@@ -1,0 +1,32 @@
+h1{
+    font-family: Mono, monospace;
+    color: rgb(80, 112, 177);
+}
+
+p{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: justify;
+}
+
+.lead{
+    color:rgb(76, 89, 149);
+    font-style: bold;
+    text-align: center;
+}
+
+.navbar{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;;
+}
+
+#quote{
+    text-align: center;
+    color:rgb(76, 89, 149);
+}
+
+#snoopyits{
+    width: 30rem;
+}
+
+#pd{
+    font-style: italic;
+}
